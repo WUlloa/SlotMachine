@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{962DF03D-A344-443B-887B-C79BBC959B5C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SlotMachine_William.My.MyApplication</StartupObject>
+    <RootNamespace>SlotMachine_William</RootNamespace>
+    <AssemblyName>SlotMachine-William</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>E:\Downloads\Zelda Release\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SlotMachine-William.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SlotMachine-William.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>DBE4F416E14159D915D63E9E15953F501602875A</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SlotMachine-William_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Allies.Designer.vb">
+      <DependentUpon>Allies.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Allies.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AryllAbility.Designer.vb">
+      <DependentUpon>AryllAbility.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AryllAbility.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AryllSuccess.Designer.vb">
+      <DependentUpon>AryllSuccess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AryllSuccess.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomMessageBox1.Designer.vb">
+      <DependentUpon>CustomMessageBox1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CustomMessageBox1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomMessageBox2.Designer.vb">
+      <DependentUpon>CustomMessageBox2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CustomMessageBox2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FightMessageBox.Designer.vb">
+      <DependentUpon>FightMessageBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FightMessageBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gem1Box.Designer.vb">
+      <DependentUpon>Gem1Box.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gem1Box.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gem2Box.Designer.vb">
+      <DependentUpon>Gem2Box.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gem2Box.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gem3.Designer.vb">
+      <DependentUpon>Gem3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Gem3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JackPotBox.Designer.vb">
+      <DependentUpon>JackPotBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JackPotBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MedliAbility.Designer.vb">
+      <DependentUpon>MedliAbility.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MedliAbility.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MedliFail.Designer.vb">
+      <DependentUpon>MedliFail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MedliFail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MedliSuccess.Designer.vb">
+      <DependentUpon>MedliSuccess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MedliSuccess.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NoCreditMessageBox.Designer.vb">
+      <DependentUpon>NoCreditMessageBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NoCreditMessageBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RestartMessageBox.Designer.vb">
+      <DependentUpon>RestartMessageBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RestartMessageBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TetraAbility.Designer.vb">
+      <DependentUpon>TetraAbility.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TetraAbility.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TetraFail.Designer.vb">
+      <DependentUpon>TetraFail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TetraFail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TetraSuccess.Designer.vb">
+      <DependentUpon>TetraSuccess.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TetraSuccess.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winnings.Designer.vb">
+      <DependentUpon>Winnings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Winnings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WonGameBox.Designer.vb">
+      <DependentUpon>WonGameBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WonGameBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Allies.resx">
+      <DependentUpon>Allies.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AryllAbility.resx">
+      <DependentUpon>AryllAbility.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AryllSuccess.resx">
+      <DependentUpon>AryllSuccess.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomMessageBox1.resx">
+      <DependentUpon>CustomMessageBox1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomMessageBox2.resx">
+      <DependentUpon>CustomMessageBox2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FightMessageBox.resx">
+      <DependentUpon>FightMessageBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gem1Box.resx">
+      <DependentUpon>Gem1Box.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gem2Box.resx">
+      <DependentUpon>Gem2Box.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gem3.resx">
+      <DependentUpon>Gem3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JackPotBox.resx">
+      <DependentUpon>JackPotBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MedliAbility.resx">
+      <DependentUpon>MedliAbility.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MedliFail.resx">
+      <DependentUpon>MedliFail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MedliSuccess.resx">
+      <DependentUpon>MedliSuccess.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoCreditMessageBox.resx">
+      <DependentUpon>NoCreditMessageBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RestartMessageBox.resx">
+      <DependentUpon>RestartMessageBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TetraAbility.resx">
+      <DependentUpon>TetraAbility.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TetraFail.resx">
+      <DependentUpon>TetraFail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TetraSuccess.resx">
+      <DependentUpon>TetraSuccess.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winnings.resx">
+      <DependentUpon>Winnings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WonGameBox.resx">
+      <DependentUpon>WonGameBox.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="SlotMachine-William_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Floor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rubis_Rouge_SS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rubis_Argenté_SS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Deku_Leaf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aryll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tetra1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medli.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NayruGem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DinGem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FaroreGem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WindWaker.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PinkRupee1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SkyLink.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beedle.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Box.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Princess_Zelda_Wind_Waker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BeedleImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_Playing_Spirit_Flute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tetra2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrinceKomali.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tetra3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
